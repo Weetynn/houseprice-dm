@@ -1,6 +1,8 @@
-# Initial Exploration of Housing Data and Data Warehousing Concepts: A Case Study on Landbay 
+# Analysis of King County Housing Data and Data Warehousing Principles
 
 #### (PART I)
 
 ## 📚 Introduction
+
+
 
