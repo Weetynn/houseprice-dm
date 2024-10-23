@@ -48,7 +48,17 @@ The study further explores data warehousing principles through a case study on L
 
 #### 📌 Missing Values
 
-    ▪️ Key summarizing properties, including mean, variance, standard deviation, distribution, median, and percentiles, were calculated for the following attributes: price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, lat, long, yr_built, yr_renovated, sqft_above, sqft_basement, sqft_living15, and sqft_lot15.
+    ▪️ Missing values were present in these 16 attributes: price, bedrooms, sqft_living, sqft_lot, grade, condition, view, floors, waterfront, sqft_above, sqft_basement, yr_built, lat, long, sqft_living15, and sqft_lot15. 
+
+#### 📌 Outlier Detection and Analysis
+
+    ▪️ Method Used for Outlier Detection: Outliers were identified using boxplots and kurtosis values. 
+    
+    ▪️ Legitimate Outliers: Outliers were detected in price, bedrooms, sqft_living, grade, condition, view, sqft_above, sqft_basement, long, sqft_living15, and sqft_lot. These are considered genuine as they reflect real-world variations like high prices and large living areas, so they will not be removed.
+
+    ▪️ Erroneous outliers: Observation 9 in the sqft_lot attribute recorded a 533,610 square foot lot but had only one bedroom, one bathroom, and a small 800 square foot living area, far below the average for neighboring properties. Due to this inconsistency, it is considered illogical and will be removed.
+    
+   
 
 
     
