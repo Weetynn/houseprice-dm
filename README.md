@@ -12,3 +12,10 @@ The study further explores data warehousing principles through a case study on L
 
 ## 🗒️ Main Areas of Discussion
 
+### 1.0 Metadata of the Dataset
+
+#### 📌 Dataset Overview
+
+    ▪️ The dataset is named “HOUSE” and is located within the “WORK” library in SAS Studio.
+    
+    ▪️ It contains 3250 observations (rows) and 21 attributes (columns), representing house sales data from King County, Washington, from May 2014 to May 2015.
