@@ -84,8 +84,17 @@ The study further explores data warehousing principles through a case study on L
 
 ### 4.0 Case Study on Landbay
 
+🏢 Company Background
 
+Landbay, a UK-based mortgage lending platform, connects institutional investors with property loans. As the business grew, it needed a scalable data infrastructure to handle increasing data volumes and provide real-time insights. 
 
+The platform transitioned from a manual pipeline to a more advanced, automated solution, which will be evaluated based on the abovementioned criteria:
 
+#### 📌 Initial Data Pipeline
 
+    ▪️ Landbay's original pipeline relied on manual ETL processes, which lacked scalability and automation. This led to slower data processing and limited the company's ability to manage larger data volumes as the business expanded.
+
+#### 📌 Latest Data Pipeline
+
+    ▪️ The current pipeline leverages Amazon Redshift with an ELT model, enabling real-time data processing and faster decision-making. It uses AWS Glue and Spectrum for automated data transformation, improving both performance and scalability while reducing costs.
 
