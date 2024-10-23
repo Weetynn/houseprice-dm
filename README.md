@@ -82,6 +82,8 @@ The study further explores data warehousing principles through a case study on L
 
     ▪️ Cost Efficiency: Considers total cost, including setup, maintenance, and scalability, with cloud-based solutions offering flexible pay-as-you-go models.
 
+---
+
 ### 4.0 Case Study on Landbay
 
 🏢 Company Background
@@ -92,9 +94,13 @@ The platform transitioned from a manual pipeline to a more advanced, automated s
 
 #### 📌 Initial Data Pipeline
 
+![Diagram-1-architecture-landbay](https://github.com/user-attachments/assets/2001d143-f910-4fc7-80ae-92f5d8d32bcf)
+
     ▪️ Landbay's original pipeline relied on manual ETL processes, which lacked scalability and automation. This led to slower data processing and limited the company's ability to manage larger data volumes as the business expanded.
 
 #### 📌 Latest Data Pipeline
+
+![Landbay-Architecture-2](https://github.com/user-attachments/assets/2e20a93a-9b32-4aee-bf03-0ab6ed356a99)
 
     ▪️ The current pipeline leverages Amazon Redshift with an ELT model, enabling real-time data processing and faster decision-making. It uses AWS Glue and Spectrum for automated data transformation, improving both performance and scalability while reducing costs.
 
