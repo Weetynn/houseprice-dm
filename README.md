@@ -57,9 +57,11 @@ The study further explores data warehousing principles through a case study on L
     ▪️ Legitimate Outliers: Outliers were detected in price, bedrooms, sqft_living, grade, condition, view, sqft_above, sqft_basement, long, sqft_living15, and sqft_lot. These are considered genuine as they reflect real-world variations like high prices and large living areas, so they will not be removed.
 
     ▪️ Erroneous outliers: Observation 9 in the sqft_lot attribute recorded a 533,610 square foot lot but had only one bedroom, one bathroom, and a small 800 square foot living area, far below the average for neighboring properties. Due to this inconsistency, it is considered illogical and will be removed.
-    
-   
 
+#### 📌 Inconsistencies Identified
+
+    ▪️ The bedrooms attribute included two entries with zero bedrooms, which were flagged for removal due to their implausibility.
+    
 
     
 
