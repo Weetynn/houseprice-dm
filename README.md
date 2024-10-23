@@ -98,3 +98,19 @@ The platform transitioned from a manual pipeline to a more advanced, automated s
 
     ▪️ The current pipeline leverages Amazon Redshift with an ELT model, enabling real-time data processing and faster decision-making. It uses AWS Glue and Spectrum for automated data transformation, improving both performance and scalability while reducing costs.
 
+#### 📌 Evaluation Based on the Five Criteria
+    
+    ▪️ Scalability and Performance: The switch to Amazon Redshift significantly improved scalability, allowing Landbay to efficiently handle large and growing datasets without compromising performance.
+
+    ▪️ Data Integration: The use of ELT processes and AWS Glue enables seamless integration of structured and semi-structured data, streamlining data from multiple sources for efficient analysis.
+
+    ▪️ Data Governance: Landbay’s new pipeline ensures data security and compliance with regulatory requirements such as GDPR, using access controls and audit trails to maintain data governance standards.
+    
+    ▪️ Flexibility and Adaptability: The latest pipeline supports traditional analytics and more advanced tools like machine learning, adapting to Landbay’s evolving business needs and enabling real-time insights for investors.
+    
+    ▪️ Cost Efficiency: By transitioning to cloud-based Amazon Redshift, Landbay achieved cost savings with flexible pricing models, paying only for the resources used while benefiting from reduced infrastructure costs.
+
+
+
+
+
