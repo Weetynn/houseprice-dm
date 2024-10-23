@@ -10,5 +10,5 @@ To facilitate effective analysis, the dataset was reduced to 3250 observations u
 
 The study further explores data warehousing principles through a case study on Landbay, a UK-based mortgage lending platform, assessing its data pipeline based on scalability, data integration, governance, flexibility, and cost efficiency.
 
-
+## 🗒️ Main Areas of Discussion
 
