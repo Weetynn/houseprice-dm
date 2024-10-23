@@ -110,6 +110,11 @@ The platform transitioned from a manual pipeline to a more advanced, automated s
     
     ▪️ Cost Efficiency: By transitioning to cloud-based Amazon Redshift, Landbay achieved cost savings with flexible pricing models, paying only for the resources used while benefiting from reduced infrastructure costs.
 
+#### 📌 Benefits
+    
+    ▪️ The improved pipeline allows Landbay to manage increasing data volumes, maintain data governance standards, and provide real-time insights to institutional investors. These enhancements have optimized operational efficiency and portfolio management, especially during the COVID-19 pandemic.
+
+   
 
 
 
