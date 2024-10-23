@@ -68,8 +68,24 @@ The study further explores data warehousing principles through a case study on L
 
 ---
 
+### 3.0 Data Warehouse Concepts
 
+#### 📌 Data Warehouse Evaluation Criteria
 
+    ▪️ Scalability and Performance: The warehouse should scale vertically or horizontally to manage increasing data volumes without impacting performance.
     
+    ▪️ Data Integration: Supports structured and semi-structured data from various sources through ETL (Extract, Transform, Load) or ELT (Extract, Load, Transform) pipelines.
+
+    ▪️ Data Governance: Ensures data accuracy, security, and compliance with regulations like GDPR and CCPA, implementing access controls and audit trails.
+
+    ▪️ Flexibility and Adaptability: Supports traditional business intelligence, machine learning, and real-time data processing, adapting to new tools and changing business needs.
+
+    ▪️ Cost Efficiency: Considers total cost, including setup, maintenance, and scalability, with cloud-based solutions offering flexible pay-as-you-go models.
+
+### 4.0 Case Study on Landbay
+
+
+
+
 
 
