@@ -22,23 +22,23 @@ The study further explores data warehousing principles through a case study on L
     
 #### 📌 Attributes
 
-    ▪️ The dataset includes the following 21 attributes: id, date, price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, sqft_above, sqft_basement, yr_built, yr_renovated, zipcode, lat, long, sqft_living15, and sqft_lot15.
+    ▪️ The dataset includes the following 21 attributes: "id", "date", "price", "bedrooms", "bathrooms", "sqft_living", "sqft_lot", "floors", "waterfront", "view", "condition", "grade", "sqft_above", "sqft_basement", "yr_built", "yr_renovated", "zipcode", "lat", "long", "sqft_living15", and "sqft_lot15".
     
 #### 📌 Data Types
 
 ![Screenshot 2024-10-23 134548](https://github.com/user-attachments/assets/ab2a6bec-57bf-4e5c-a569-c724d3470464)
 
-    ▪️ The majority of the attributes are numericThe majority of the attributes are numeric. 
+    ▪️ The majority of the attributes are numeric. 
 
 #### 📌 Data Type Issues
 
-    ▪️ id is stored as a numeric variable, representing a unique identifier for each property. However, as it holds no mathematical significance, it will not be analyzed statistically.
+    ▪️ "id" is stored as a numeric variable, representing a unique identifier for each property. However, as it holds no mathematical significance, it will not be analyzed statistically.
 
-    ▪️ zipcode is stored as a numeric variable but represents geographic regions, so it should be converted to a character type, as it does not possess mathematical relevance.
+    ▪️ "zipcode" is stored as a numeric variable but represents geographic regions, so it should be converted to a character type, as it does not possess mathematical relevance.
 
-    ▪️ The date attribute, representing the date the house was sold, is currently in character type but ideally should be stored as a date variable for accurate time-based analysis.
+    ▪️ The "date" attribute, representing the date the house was sold, is currently in character type but ideally should be stored as a date variable for accurate time-based analysis.
     
-    ▪️ The yr_renovated attribute contains year values but includes '0' for properties that were not renovated, which will need adjustment to properly reflect non-renovation year.
+    ▪️ The "yr_renovated" attribute contains year values but includes '0' for properties that were not renovated, which will need adjustment to properly reflect non-renovation year.
 
 ---
 
@@ -46,23 +46,23 @@ The study further explores data warehousing principles through a case study on L
 
 #### 📌 Summarizing Properties
 
-    ▪️ Key summarizing properties, including mean, variance, standard deviation, distribution, median, and percentiles, were calculated for the following attributes: price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, lat, long, yr_built, yr_renovated, sqft_above, sqft_basement, sqft_living15, and sqft_lot15.
+    ▪️ Key summarizing properties, including mean, variance, standard deviation, distribution, median, and percentiles, were calculated for the following attributes: "price", "bedrooms", "bathrooms", "sqft_living", "sqft_lot", "floors", "waterfront", "view", "condition", "grade", "lat", "long", "yr_built", "yr_renovated", "sqft_above", "sqft_basement", "sqft_living15", and "sqft_lot15".
 
 #### 📌 Missing Values
 
-    ▪️ Missing values were present in these 16 attributes: price, bedrooms, sqft_living, sqft_lot, grade, condition, view, floors, waterfront, sqft_above, sqft_basement, yr_built, lat, long, sqft_living15, and sqft_lot15. 
+    ▪️ Missing values were present in these 16 attributes: "price", "bedrooms", "sqft_living", "sqft_lot", "grade', "condition", "view", "floors", "waterfront", "sqft_above", "sqft_basement", "yr_built", "lat", "long", "sqft_living15", and "sqft_lot15". 
 
 #### 📌 Outlier Detection and Analysis
 
     ▪️ Method Used for Outlier Detection: Outliers were identified using boxplots and kurtosis values. 
     
-    ▪️ Legitimate Outliers: Outliers were detected in price, bedrooms, sqft_living, grade, condition, view, sqft_above, sqft_basement, long, sqft_living15, and sqft_lot. These are considered genuine as they reflect real-world variations like high prices and large living areas, so they will not be removed.
+    ▪️ Legitimate Outliers: Outliers were detected in "price", "bedrooms", "sqft_living", "grade", "condition", "view", "sqft_above", "sqft_basement", "long", "sqft_living15", and "sqft_lot". These are considered genuine as they reflect real-world variations like high prices and large living areas, so they will not be removed.
 
-    ▪️ Erroneous outliers: Observation 9 in the sqft_lot attribute recorded a 533,610 square foot lot but had only one bedroom, one bathroom, and a small 800 square foot living area, far below the average for neighboring properties. Due to this inconsistency, it is considered illogical and will be removed.
+    ▪️ Erroneous outlier: Observation 9 in the "sqft_lot" attribute recorded a 533,610 square foot lot but had only one bedroom, one bathroom, and a small 800 square foot living area, far below the average for neighboring properties. Due to this inconsistency, it is considered illogical and will be removed.
 
 #### 📌 Inconsistencies Identified
 
-    ▪️ The bedrooms attribute included two entries with zero bedrooms, which were flagged for removal due to their implausibility.
+    ▪️ The "bedrooms" attribute included two entries with zero bedrooms, which were flagged for removal due to their implausibility.
 
 ##### ⚠️ Note: All missing values, outliers, inconsistencies, and incorrect data types identified will be addressed in [Part II](https://github.com/Weetynn/housingdata-dm-ii.git). 
 
