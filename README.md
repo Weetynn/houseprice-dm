@@ -63,7 +63,12 @@ The study further explores data warehousing principles through a case study on L
 #### 📌 Inconsistencies Identified
 
     ▪️ The bedrooms attribute included two entries with zero bedrooms, which were flagged for removal due to their implausibility.
-    
+
+##### ⚠️ Note: All missing values, outliers, inconsistencies, and incorrect data types identified will be addressed in Part II. 
+
+---
+
+
 
     
 
