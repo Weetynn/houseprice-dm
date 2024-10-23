@@ -37,3 +37,20 @@ The study further explores data warehousing principles through a case study on L
     ▪️ The date attribute, representing the date the house was sold, is currently in character type but ideally should be stored as a date variable for accurate time-based analysis.
     
     ▪️ The yr_renovated attribute contains year values but includes '0' for properties that were not renovated, which will need adjustment to properly reflect non-renovation year.
+
+---
+
+### 2.0 Initial Data Exploration
+
+#### 📌 Summarizing Properties
+
+    ▪️ Key summarizing properties, including mean, variance, standard deviation, distribution, median, and percentiles, were calculated for the following attributes: price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, lat, long, yr_built, yr_renovated, sqft_above, sqft_basement, sqft_living15, and sqft_lot15.
+
+#### 📌 Missing Values
+
+    ▪️ Key summarizing properties, including mean, variance, standard deviation, distribution, median, and percentiles, were calculated for the following attributes: price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, lat, long, yr_built, yr_renovated, sqft_above, sqft_basement, sqft_living15, and sqft_lot15.
+
+
+    
+
+
