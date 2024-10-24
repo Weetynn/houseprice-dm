@@ -14,23 +14,23 @@ The study further explores data warehousing principles through a case study on L
 
 ### 1.0 Metadata of the Dataset
 
-#### 📌 Dataset Overview
+#### 📌 1.1 Dataset Overview
 
     ▪️ The dataset is named “HOUSE” and is located within the “WORK” library in SAS Studio.
     
     ▪️ It contains 3250 observations (rows) and 21 attributes (columns), representing house sales data from King County, Washington, from May 2014 to May 2015.
     
-#### 📌 Attributes
+#### 📌 1.2 Attributes
 
     ▪️ The dataset includes the following 21 attributes: "id", "date", "price", "bedrooms", "bathrooms", "sqft_living", "sqft_lot", "floors", "waterfront", "view", "condition", "grade", "sqft_above", "sqft_basement", "yr_built", "yr_renovated", "zipcode", "lat", "long", "sqft_living15", and "sqft_lot15".
     
-#### 📌 Data Types
+#### 📌 1.3 Data Types
 
 ![Screenshot 2024-10-23 134548](https://github.com/user-attachments/assets/ab2a6bec-57bf-4e5c-a569-c724d3470464)
 
     ▪️ The majority of the attributes are numeric. 
 
-#### 📌 Data Type Issues
+#### 📌 1.4 Data Type Issues
 
     ▪️ "id" is stored as a numeric variable, representing a unique identifier for each property. However, as it holds no mathematical significance, it will not be analyzed statistically.
 
@@ -44,15 +44,15 @@ The study further explores data warehousing principles through a case study on L
 
 ### 2.0 Initial Data Exploration
 
-#### 📌 Summarizing Properties
+#### 📌 2.1 Summarizing Properties
 
     ▪️ Key summarizing properties, including mean, variance, standard deviation, distribution, median, and percentiles, were calculated for the following attributes: "price", "bedrooms", "bathrooms", "sqft_living", "sqft_lot", "floors", "waterfront", "view", "condition", "grade", "lat", "long", "yr_built", "yr_renovated", "sqft_above", "sqft_basement", "sqft_living15", and "sqft_lot15".
 
-#### 📌 Missing Values
+#### 📌 2.2 Missing Values
 
     ▪️ Missing values were present in these 16 attributes: "price", "bedrooms", "sqft_living", "sqft_lot", "grade', "condition", "view", "floors", "waterfront", "sqft_above", "sqft_basement", "yr_built", "lat", "long", "sqft_living15", and "sqft_lot15". 
 
-#### 📌 Outlier Detection and Analysis
+#### 📌 2.3 Outlier Detection and Analysis
 
     ▪️ Method Used for Outlier Detection: Outliers were identified using boxplots and kurtosis values. 
     
@@ -60,7 +60,7 @@ The study further explores data warehousing principles through a case study on L
 
     ▪️ Erroneous outlier: Observation 9 in the "sqft_lot" attribute recorded a 533,610 square foot lot but had only one bedroom, one bathroom, and a small 800 square foot living area, far below the average for neighboring properties. Due to this inconsistency, it is considered illogical and will be removed.
 
-#### 📌 Inconsistencies Identified
+#### 📌 2.4 Inconsistencies Identified
 
     ▪️ The "bedrooms" attribute included two entries with zero bedrooms, which were flagged for removal due to their implausibility.
 
@@ -70,7 +70,7 @@ The study further explores data warehousing principles through a case study on L
 
 ### 3.0 Data Warehouse Concepts
 
-#### 📌 Data Warehouse Evaluation Criteria
+#### 📌 3.1 Data Warehouse Evaluation Criteria
 
     ▪️ Scalability and Performance: The warehouse should scale vertically or horizontally to manage increasing data volumes without impacting performance.
     
@@ -92,19 +92,19 @@ Landbay, a UK-based mortgage lending platform, connects institutional investors 
 
 The platform transitioned from a manual pipeline to a more advanced, automated solution, which will be evaluated based on the abovementioned criteria:
 
-#### 📌 Initial Data Pipeline
+#### 📌 4.1 Initial Data Pipeline
 
 ![Diagram-1-architecture-landbay](https://github.com/user-attachments/assets/2001d143-f910-4fc7-80ae-92f5d8d32bcf)
 
     ▪️ Landbay's original pipeline relied on manual ETL processes, which lacked scalability and automation. This led to slower data processing and limited the company's ability to manage larger data volumes as the business expanded.
 
-#### 📌 Latest Data Pipeline
+#### 📌 4.2 Latest Data Pipeline
 
 ![Landbay-Architecture-2](https://github.com/user-attachments/assets/2e20a93a-9b32-4aee-bf03-0ab6ed356a99)
 
     ▪️ The current pipeline leverages Amazon Redshift with an ELT model, enabling real-time data processing and faster decision-making. It uses AWS Glue and Spectrum for automated data transformation, improving both performance and scalability while reducing costs.
 
-#### 📌 Evaluation Based on the Five Criteria
+#### 📌 4.3 Evaluation Based on the Five Criteria
     
     ▪️ Scalability and Performance: The switch to Amazon Redshift significantly improved scalability, allowing Landbay to efficiently handle large and growing datasets without compromising performance.
 
@@ -116,7 +116,7 @@ The platform transitioned from a manual pipeline to a more advanced, automated s
     
     ▪️ Cost Efficiency: By transitioning to cloud-based Amazon Redshift, Landbay achieved cost savings with flexible pricing models, paying only for the resources used while benefiting from reduced infrastructure costs.
 
-#### 📌 Benefits
+#### 📌 4.4 Benefits
     
     ▪️ The improved pipeline allows Landbay to manage increasing data volumes, maintain data governance standards, and provide real-time insights to institutional investors. These enhancements have optimized operational efficiency and portfolio management, especially during the COVID-19 pandemic.
 
