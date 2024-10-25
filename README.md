@@ -26,7 +26,7 @@ The study further explores data warehousing principles through a case study on L
     
 #### 📌 1.3 Data Types
 
-![Screenshot 2024-10-23 134548](https://github.com/user-attachments/assets/ab2a6bec-57bf-4e5c-a569-c724d3470464)
+![Screenshot 2024-10-25 183504](https://github.com/user-attachments/assets/881ae2e1-8c19-45c2-adc3-253bf70396cd)
 
     ▪️ The majority of the attributes are numeric. 
 
